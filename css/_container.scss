@@ -1,0 +1,27 @@
+.container {
+    position: relative;
+    z-index: 26;
+}
+
+.container, .site-content {
+    max-width: 64em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2em;
+}
+
+.center-align-container {
+    display: flex;
+    justify-content: center;
+}
+
+.vertical-align-container {
+    float: none;
+    margin-left: auto !important;
+    margin-right: auto;
+    display: -webkit-flex !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: auto;
+}

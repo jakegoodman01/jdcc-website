@@ -1,0 +1,36 @@
+/* Classes */
+
+.navbar {
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 0;
+}
+
+.navbar .menu {
+    position: relative;
+    display: flex;
+}
+
+ul.menu li {
+    display: flex;
+    text-align: center;
+    height: 78px;
+}
+
+ul.menu li:first-child a {
+    padding-left: 30px;
+}
+
+ul.menu li a {
+    position: relative;
+    display: inline-flex;
+    text-decoration: none;
+    color: #fff;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 18px;
+    font-size: 18px;
+    color: #3c4858;
+    cursor: pointer;
+}

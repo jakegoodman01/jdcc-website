@@ -1,0 +1,57 @@
+#quote-callout {
+    background-image: url("/assets/bkgd-bluedot-sm.png");
+    background-position: calc(50% - -300px) top;
+    background-repeat: no-repeat;
+    padding-top: 4em;
+    padding-bottom: 0;
+}
+
+#quote-callout .quote-callout-wrapper {
+    border: 10px solid #303273;
+    display: flex;
+    padding: 0;
+}
+
+#quote-callout .callout-quote {
+    flex: 1;
+    padding: 45px 50px 45px 50px;
+    flex-basis: 45%;
+    position: relative;
+    z-index: 205;
+}
+
+#quote-callout .callout-quote span {
+    position: relative;
+    font-family: "Work Sans",sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+#quote-callout .callout-block {
+    flex: 1;
+    background-image: url("/assets/blob-pink.svg");
+    background-position: left -60px top -100px;
+    padding: 0 15px;
+    background-repeat: no-repeat;
+    flex-basis: 50%;
+    justify-content: center;
+    display: flex;
+}
+
+#quote-callout .callout-block p {
+    font-family: "Work Sans",sans-serif;
+    align-self: flex-end;
+    text-align: center;
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 20%;
+    margin-bottom: 12%;
+    position: relative;
+    z-index: 202;
+}
+
+#quote-callout .callout-block p span {
+    display: block;
+    font-size: 110px;
+    line-height: 95px;
+}

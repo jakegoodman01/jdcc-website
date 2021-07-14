@@ -1,0 +1,54 @@
+.newsletter-subscribe {
+    background-image: url("/assets/bkgd-newsletter-pattern.jpeg");
+    background-color: #f2c1e4;
+}
+
+.html-marketo-form input, select, textarea {
+    background-color: #fff;
+    border: 1px solid #e5e9f2;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px !important;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    transition: border-color 150ms ease-in-out;
+    width: 100% !important;
+    height: 50px;
+    color: #666666;
+    box-shadow: none;
+}
+
+#form-button {
+    color: white !important;
+    box-shadow: none !important;
+    background: #8e44ad !important;
+    border: none !important;
+    text-transform: uppercase !important;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    padding: 1em 27px 1.2em !important;
+    margin-top: 10px !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    text-transform: none;
+    text-shadow: none !important;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    cursor: pointer;
+    width: 100% !important;
+    margin: 0 !important;
+    font-family: "Open Sans", sans-serif !important;
+    letter-spacing: 1px !important;
+    height: 46px !important;
+    line-height: 2px !important;
+    display: inline-block;
+    text-decoration: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
